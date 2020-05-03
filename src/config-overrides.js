@@ -1,0 +1,3 @@
+//seta o babel
+const {useBabelRc, override  } = required('customize-cra')
+module.exports = override(useBabelRc())
