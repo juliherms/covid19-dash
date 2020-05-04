@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import CovidImg from '../../assets/images/covid.jpg'
 
 //configura o css global
+//biblioteca responsável por escrever css junto com o javascript
 const globalStyle = createGlobalStyle`
   * {
     outline: none;
